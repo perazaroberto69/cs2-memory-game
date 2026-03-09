@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(25, 25, 77);
+}
+
+.cards {
+    background-color: rgba(79, 82, 161, 0.66);
+    width: 150px;
+    height:150px;
+    text-align:center;
+    align-content:center;
+    border-radius:20px;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    cursor:Pointer;
+    transition: 300ms;
+}
+
+.cards:hover {
+    transform:scale(1.11);
+
+}
+
+.row {
+    justify-content: space-around;
+    display:flex;
+    margin:30px;
+}
+
+h1 {
+    text-align:center;
+    font-size:70px
+}
+
+p{
+    text-align:center;
+    font-size:30px
+}
