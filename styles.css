@@ -3,7 +3,7 @@ body {
 }
 
 .cards {
-    background-color: rgba(79, 82, 161, 0.66);
+    background-color: rgb(255, 255, 255);
     width: 150px;
     height:150px;
     text-align:center;
@@ -14,9 +14,10 @@ body {
     user-select: none;
     cursor:Pointer;
     transition: 300ms;
+    color:rgb(255, 255, 255)
 }
 
-.cards:hover {
+cards:hover {
     transform:scale(1.11);
 
 }
@@ -29,10 +30,12 @@ body {
 
 h1 {
     text-align:center;
-    font-size:70px
+    font-size:70px;
+    color:white;
 }
 
 p{
     text-align:center;
-    font-size:30px
+    font-size:30px;
+    color:white;
 }
