@@ -11,12 +11,12 @@ function flipCard(cardId) {
     
     if (firstCardId == ""){
     firstCardId = cardId;
-    } else {
-    secondCardId = cardId;
+    } else if (cardId != firstCardId) {
+        secondCardId = cardId;
+        setTimeout(checkForMatch, 1000);
     }
     console.log(firstCardId);
-    console.log(secondCardId);
-    checkForMatch();
+    console.log(secondCardId); 
 }
 
 function checkForMatch(){
